@@ -1,0 +1,104 @@
+.top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.top :global(.wrap) {
+  margin-bottom: 0;
+}
+
+.blurb p {
+  color: var(--color-text-light);
+  max-width: 340px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.author img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author strong {
+  display: block;
+  font-family: var(--font-heading);
+}
+
+.author span {
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 50px;
+}
+
+.card {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 6px solid var(--color-dark);
+  box-shadow: inset 0 0 0 3px var(--color-accent);
+  aspect-ratio: 3 / 3.4;
+}
+
+.cardOffset {
+  margin-top: 30px;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cardLabel {
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  background: var(--color-accent);
+  color: var(--color-dark);
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+@media (max-width: 991px) {
+  .top {
+    grid-template-columns: 1fr;
+  }
+
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cards .card:last-child {
+    grid-column: span 2;
+    aspect-ratio: 16 / 9;
+  }
+
+  .cardOffset {
+    margin-top: 0;
+  }
+}

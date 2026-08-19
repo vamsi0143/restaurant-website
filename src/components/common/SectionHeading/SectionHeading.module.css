@@ -1,0 +1,48 @@
+.wrap {
+  margin-bottom: 40px;
+}
+
+.center {
+  text-align: center;
+}
+
+.eyebrow {
+  display: inline-block;
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 700;
+  max-width: 520px;
+}
+
+.center .title {
+  max-width: none;
+  margin: 0 auto;
+}
+
+.underline {
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: var(--color-accent);
+  border-radius: 2px;
+  margin-top: 16px;
+}
+
+.center .underline {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 576px) {
+  .wrap {
+    margin-bottom: 28px;
+  }
+}

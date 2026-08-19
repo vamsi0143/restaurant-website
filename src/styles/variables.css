@@ -1,0 +1,27 @@
+:root {
+  /* Brand colors (matched from the Figma design) */
+  --color-primary: #ea3c53;       /* red/pink - buttons, reserve banner */
+  --color-primary-dark: #d02d43;
+  --color-accent: #ffcd1e;        /* yellow - badges, highlights */
+  --color-dark: #1a1a1a;          /* near-black - header text, footer bg */
+  --color-dark-2: #2b2b2b;
+  --color-bg-light: #f6f7fb;      /* light gray section backgrounds */
+  --color-bg-white: #ffffff;
+  --color-text: #333333;
+  --color-text-light: #767676;
+  --color-border: #ececec;
+
+  /* Typography */
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Nunito Sans', sans-serif;
+
+  /* Layout */
+  --container-width: 1200px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+
+  /* Breakpoints (referenced in comments; CSS uses literal px in media queries) */
+  --bp-mobile: 576px;
+  --bp-tablet: 992px;
+}
