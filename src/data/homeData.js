@@ -106,7 +106,7 @@ export const recentNews = [
     date: 'April 4, 2023',
     author: 'Willimes Thomas',
     image: '/restaurant-website/images/news-alfredo.jpg',
-    avatar: '/restaurant-website/images/avatar-willimes.jpg',
+    avatar: '/restaurant-website/images/author.png',
   },
   {
     id: 2,
@@ -114,7 +114,7 @@ export const recentNews = [
     date: 'April 4, 2023',
     author: 'Willimes Thomas',
     image: '/restaurant-website/images/news-salmon.jpg',
-    avatar: '/restaurant-website/images/avatar-willimes.jpg',
+    avatar: '/restaurant-website/images/author.png',
   },
 ]
 

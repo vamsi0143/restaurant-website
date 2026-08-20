@@ -35,7 +35,7 @@ export default function CategoryTabs() {
 
         <div className={styles.panel}>
           <div className={styles.panelImage}>
-            <img src="/images/bbq-plate.png" alt="Grilled chicken plate" />
+            <img src="/restaurant-website/images/dish-fried-chicken.png" alt="Grilled chicken plate" />
           </div>
           <div className={styles.panelContent}>
             <h3>BBQ</h3>
