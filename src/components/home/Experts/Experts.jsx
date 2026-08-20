@@ -23,7 +23,7 @@ export default function Experts() {
                     <span />
                   </div>
                   <img
-                    src="/images/signature.png"
+                    src="/restaurant-website/images/signature.png"
                     alt="Signature"
                     class="signature"
                   />

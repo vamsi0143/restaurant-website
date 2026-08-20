@@ -57,9 +57,9 @@ public/
                                the README inside that folder for exact names)
 ```
 
-> Images live in `public/images/`, not `src/`. Vite serves everything in
-> `public/` from the site root as-is, so `public/images/hero-dish.jpg`
-> is referenced in code as `/images/hero-dish.jpg` and works correctly in
+> Images live in `public/restaurant-website/images/`, not `src/`. Vite serves everything in
+> `public/` from the site root as-is, so `public/restaurant-website/images/hero-dish.jpg`
+> is referenced in code as `/restaurant-website/images/hero-dish.jpg` and works correctly in
 > both dev and production builds.
 
 Every component has its JSX file sitting next to its own `*.module.css` —

@@ -12,7 +12,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={`container ${styles.inner}`}>
         <Link to="/" className={styles.logo}>
-          <img src="/images/logo.png" alt="TasteNest" />
+          <img src="/restaurant-website/images/logo.png" alt="TasteNest" />
         </Link>
 
         <nav className={`${styles.nav} ${menuOpen ? styles.navOpen : ''}`}>

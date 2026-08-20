@@ -28,10 +28,10 @@ export default function AppPromo() {
         </div>
 
         <div className={styles.visual}>
-          <img className={styles.bikeImg} src="/images/app-bike.png" alt="Delivery rider on a scooter" />
-          <img className={styles.phoneImg} src="/images/app-phone.png" alt="Food delivery app on a phone" />
-          <img className={styles.pizzaImg} src="/images/app-pizza.png" alt="Pizza" />
-          <img className={styles.bowlImg} src="/images/app-bowl.png" alt="Bowl of food" />
+          <img className={styles.bikeImg} src="/restaurant-website/images/app-bike.png" alt="Delivery rider on a scooter" />
+          <img className={styles.phoneImg} src="/restaurant-website/images/app-phone.png" alt="Food delivery app on a phone" />
+          <img className={styles.pizzaImg} src="/restaurant-website/images/app-pizza.png" alt="Pizza" />
+          <img className={styles.bowlImg} src="/restaurant-website/images/app-bowl.png" alt="Bowl of food" />
         </div>
       </div>
     </section>

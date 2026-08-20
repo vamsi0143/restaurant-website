@@ -40,11 +40,11 @@ export default function Hero() {
         </div>
 
         <div className={styles.imageWrap}>
-          <img src="/images/hero-dish.jpg" alt="Grilled steak with fresh vegetables" />
+          <img src="/restaurant-website/images/hero-dish.jpg" alt="Grilled steak with fresh vegetables" />
           <div className={styles.priceCard}>
             <span className={styles.badge}>Weekly Special</span>
             <span className={styles.pizzaImgWrap}>
-              <img src="/images/hero-pizza.png" alt="Sicilian Pizza" />
+              <img src="/restaurant-website/images/hero-pizza.png" alt="Sicilian Pizza" />
             </span>
             <div>
               <strong>$90.85</strong>

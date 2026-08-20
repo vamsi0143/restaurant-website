@@ -44,13 +44,13 @@ export default function Testimonials() {
 
           <img
             className={styles.topImg}
-            src="/images/testimonial-1.png"
+            src="/restaurant-website/images/testimonial-1.png"
             alt="Coffee on a wooden table"
           />
 
           <img
             className={styles.bottomImg}
-            src="/images/testimonial-2.png"
+            src="/restaurant-website/images/testimonial-2.png"
             alt="Dessert plate"
           />
         </div>

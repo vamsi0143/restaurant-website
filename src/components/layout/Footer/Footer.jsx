@@ -5,8 +5,8 @@ import styles from './Footer.module.css'
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-      <img className={styles.decorLeft} src="/images/footer-decor-left.png" alt="" aria-hidden="true" />
-      <img className={styles.decorRight} src="/images/footer-decor-right.png" alt="" aria-hidden="true" />
+      <img className={styles.decorLeft} src="/restaurant-website/images/footer-decor-left.png" alt="" aria-hidden="true" />
+      <img className={styles.decorRight} src="/restaurant-website/images/footer-decor-right.png" alt="" aria-hidden="true" />
 
       <div className="container">
         <div className={styles.hoursBar}>

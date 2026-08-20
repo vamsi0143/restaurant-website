@@ -8,9 +8,9 @@ export const navLinks = [
 ]
 
 export const aboutCards = [
-  { id: 1, title: 'Restaurant', image: '/images/about-restaurant.png' },
-  { id: 2, title: 'Coctail Bar', image: '/images/about-cocktail.png' },
-  { id: 3, title: 'Private Dining', image: '/images/about-dining.png' },
+  { id: 1, title: 'Restaurant', image: '/restaurant-website/images/about-restaurant.png' },
+  { id: 2, title: 'Coctail Bar', image: '/restaurant-website/images/about-cocktail.png' },
+  { id: 3, title: 'Private Dining', image: '/restaurant-website/images/about-dining.png' },
 ]
 
 export const categoryTabs = [
@@ -33,14 +33,14 @@ export const discoverMenu = [
     title: 'Steaks & BBQ',
     desc: 'canonical classics to obscure tiki drinks',
     price: '$120',
-    image: '/images/discover-steaks.png',
+    image: '/restaurant-website/images/discover-steaks.png',
   },
   {
     id: 2,
     title: 'Cocktails',
     desc: 'canonical classics to obscure tiki drinks',
     price: '$120',
-    image: '/images/discover-cocktails.png',
+    image: '/restaurant-website/images/discover-cocktails.png',
   },
 ]
 
@@ -50,7 +50,7 @@ export const featuredDishes = [
     name: 'Crispy Fried Chicken',
     oldPrice: '$14.85',
     price: '$10.85',
-    image: '/images/dish-fried-chicken.png',
+    image: '/restaurant-website/images/dish-fried-chicken.png',
     onSale: true,
   },
   {
@@ -58,7 +58,7 @@ export const featuredDishes = [
     name: 'Shroom Bacon Burger',
     oldPrice: '$21.76',
     price: '$11.76',
-    image: '/images/dish-burger.png',
+    image: '/restaurant-website/images/dish-burger.png',
     onSale: true,
   },
   {
@@ -66,7 +66,7 @@ export const featuredDishes = [
     name: 'Delicious Black Coffee',
     oldPrice: '$21.76',
     price: '$11.76',
-    image: '/images/dish-coffee.png',
+    image: '/restaurant-website/images/dish-coffee.png',
     onSale: true,
   },
 
@@ -94,9 +94,9 @@ export const testimonials = [
 ]
 
 export const experts = [
-  { id: 1, name: 'Thomas Walim', role: 'Dessert specialist', image: '/images/chef-thomas.png' },
-  { id: 2, name: 'James Jhonson', role: 'Chef Master', image: '/images/chef-james.png' },
-  { id: 3, name: 'Room Minal', role: 'Dessert specialist', image: '/images/chef-room.png' },
+  { id: 1, name: 'Thomas Walim', role: 'Dessert specialist', image: '/restaurant-website/images/chef-thomas.png' },
+  { id: 2, name: 'James Jhonson', role: 'Chef Master', image: '/restaurant-website/images/chef-james.png' },
+  { id: 3, name: 'Room Minal', role: 'Dessert specialist', image: '/restaurant-website/images/chef-room.png' },
 ]
 
 export const recentNews = [
@@ -105,20 +105,20 @@ export const recentNews = [
     title: 'Creamy Chicken Alfredo',
     date: 'April 4, 2023',
     author: 'Willimes Thomas',
-    image: '/images/news-alfredo.jpg',
-    avatar: '/images/avatar-willimes.jpg',
+    image: '/restaurant-website/images/news-alfredo.jpg',
+    avatar: '/restaurant-website/images/avatar-willimes.jpg',
   },
   {
     id: 2,
     title: 'Air Fryer Salmon',
     date: 'April 4, 2023',
     author: 'Willimes Thomas',
-    image: '/images/news-salmon.jpg',
-    avatar: '/images/avatar-willimes.jpg',
+    image: '/restaurant-website/images/news-salmon.jpg',
+    avatar: '/restaurant-website/images/avatar-willimes.jpg',
   },
 ]
 
-export const instagramBg = '/images/instagram-bg.jpg'
+export const instagramBg = '/restaurant-website/images/instagram-bg.jpg'
 
 export const footerLinks = {
   about: ['Fredoka One', 'Special Dish', 'Reservation', 'Contact'],

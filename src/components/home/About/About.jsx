@@ -14,7 +14,7 @@ export default function About() {
               met at urient monte nascete ridiculus mus. Integer posuere erat a ante venenatis.
             </p>
             <div className={styles.author}>
-              <img src="/images/author.png" alt="Willimes James" />
+              <img src="/restaurant-website/images/author.png" alt="Willimes James" />
               <div>
                 <strong>Willimes James</strong>
                 <span>Director and Chief Operations Officer</span>
